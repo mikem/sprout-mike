@@ -1,0 +1,5 @@
+package 'tmux'
+package 'watch'
+package 'ssh-copy-id'
+package 'tree'
+package 'wget'

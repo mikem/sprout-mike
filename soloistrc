@@ -9,3 +9,15 @@ recipes:
 
 # essentials
 - sprout-mike::git
+- sprout-mike::unix_essentials
+
+# settings
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+
+# apps
+- sprout-osx-apps::skype
+- sprout-osx-apps::firefox
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::chrome
+- sprout-osx-apps::menumeters
+- sprout-osx-apps::iterm2

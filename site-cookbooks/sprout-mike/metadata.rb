@@ -8,3 +8,4 @@ supports          'mac_os_x'
 
 depends           'pivotal_workstation'
 depends           'sprout-osx-base'
+depends           'sprout-osx-settings'

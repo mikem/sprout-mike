@@ -3,7 +3,26 @@ SITE
   specs:
     dmg (2.0.8)
     homebrew (1.5.2)
-    osx (2.0.1)
+
+GIT
+  remote: git://github.com/mikem/sprout.git
+  path: sprout-osx-apps
+  ref: parameterize-app-recipes
+  sha: 675fd6c7bf99e4103aa7bf3a0dbc2daf51cdacc6
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: osx
+  ref: master
+  sha: 06b9d50c00118611d3550e5068f629453fb53080
+  specs:
+    osx (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
@@ -19,18 +38,6 @@ GIT
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-apps
-  ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
@@ -66,9 +73,12 @@ PATH
   remote: site-cookbooks/sprout-mike
   specs:
     sprout-mike (0.1.0)
+      pivotal_workstation (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
+  osx (>= 0)
   pivotal_workstation (>= 0)
   sprout-mike (>= 0)
   sprout-osx-apps (>= 0)
