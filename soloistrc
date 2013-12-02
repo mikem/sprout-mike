@@ -3,6 +3,8 @@ recipes:
 # load Mike's custom attributes
 - sprout-mike
 
+- sprout-mike::rename_machine
+
 # base (required by sprout)
 - pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::homebrew
@@ -30,7 +32,7 @@ recipes:
 - sprout-osx-apps::gpg
 - sprout-osx-apps::hipchat
 - sprout-osx-apps::lastpass
-- sprout-osx-apps::vlm
+- sprout-osx-apps::vlc
 
 # dev tools
 - sprout-osx-apps::heroku_toolbelt
