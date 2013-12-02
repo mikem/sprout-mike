@@ -1,0 +1,11 @@
+recipes:
+
+# load Mike's custom attributes
+- sprout-mike
+
+# base (required by sprout)
+- pivotal_workstation::create_var_chef_cache
+- sprout-osx-base::homebrew
+
+# essentials
+- sprout-mike::git
