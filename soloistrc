@@ -13,6 +13,10 @@ recipes:
 
 # settings
 - sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-settings::dock_preferences
+- sprout-osx-settings::safari_preferences
+- sprout-osx-settings::set_finder_show_user_home_in_sidebar
+- sprout-mike::set_multitouch_preferences
 
 # apps
 - sprout-osx-apps::skype

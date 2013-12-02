@@ -7,14 +7,25 @@ SITE
 GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-apps
-  ref: parameterize-app-recipes
-  sha: 675fd6c7bf99e4103aa7bf3a0dbc2daf51cdacc6
+  ref: parameterize-recipes
+  sha: a2badf2441ee2a7ab967f238e597a1f9cbdde634
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
+
+GIT
+  remote: git://github.com/mikem/sprout.git
+  path: sprout-osx-settings
+  ref: parameterize-recipes
+  sha: a2badf2441ee2a7ab967f238e597a1f9cbdde634
+  specs:
+    sprout-osx-settings (0.1.0)
+      homebrew (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
@@ -46,17 +57,6 @@ GIT
   sha: 06b9d50c00118611d3550e5068f629453fb53080
   specs:
     sprout-osx-base (0.1.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-settings
-  ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
-  specs:
-    sprout-osx-settings (0.1.0)
-      homebrew (>= 0.0.0)
-      osx (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
