@@ -20,6 +20,10 @@ recipes:
 - sprout-osx-settings::set_finder_show_user_home_in_sidebar
 - sprout-mike::set_multitouch_preferences
 
+# vim
+- pivotal_workstation::vim
+- sprout-mike::dot-vim
+
 # apps
 - sprout-osx-apps::skype
 - sprout-osx-apps::firefox
