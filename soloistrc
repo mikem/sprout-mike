@@ -25,3 +25,14 @@ recipes:
 - sprout-osx-apps::chrome
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::alfred
+- sprout-osx-apps::google_voice_and_video
+- sprout-osx-apps::gpg
+- sprout-osx-apps::hipchat
+- sprout-osx-apps::lastpass
+- sprout-osx-apps::vlm
+
+# dev tools
+- sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::java
+- sprout-osx-apps::leiningen

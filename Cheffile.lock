@@ -8,7 +8,7 @@ GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-apps
   ref: parameterize-recipes
-  sha: a2badf2441ee2a7ab967f238e597a1f9cbdde634
+  sha: fa3de2a095244a04a7c5ac1a802fd3cd8df2c7b4
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -20,7 +20,7 @@ GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-settings
   ref: parameterize-recipes
-  sha: a2badf2441ee2a7ab967f238e597a1f9cbdde634
+  sha: fa3de2a095244a04a7c5ac1a802fd3cd8df2c7b4
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
