@@ -21,8 +21,7 @@ recipes:
 - sprout-mike::set_multitouch_preferences
 
 # vim
-- pivotal_workstation::vim
-- sprout-mike::dot-vim
+- sprout-mike::vim
 
 # apps
 - sprout-osx-apps::skype

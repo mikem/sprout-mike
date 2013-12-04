@@ -1,3 +1,7 @@
+include_recipe 'pivotal_workstation::vim'
+
+package 'vim'
+
 git "#{Chef::Config[:file_cache_path]}/dot-vim" do
   repository node['dot-vim']['repository']
   revision node['dot-vim']['version']
