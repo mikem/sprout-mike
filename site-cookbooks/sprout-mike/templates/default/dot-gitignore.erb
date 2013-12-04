@@ -1,0 +1,13 @@
+[user]
+  name = <%= node['sprout']['git']['name'] %>
+  email = <%= node['sprout']['git']['email'] %>
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[merge]
+  tool = vimdiff
+[alias]
+  st = status --short --branch
+[push]
+  default = simple
