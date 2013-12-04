@@ -37,6 +37,7 @@ recipes:
 - sprout-osx-apps::hipchat
 - sprout-osx-apps::lastpass
 - sprout-osx-apps::vlc
+- sprout-mike::neo-mail
 
 # dev tools
 - sprout-osx-apps::heroku_toolbelt
