@@ -42,3 +42,6 @@ recipes:
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::java
 - sprout-osx-apps::leiningen
+
+# configuration
+- sprout-mike::dot-vimperatorrc
