@@ -25,6 +25,7 @@ recipes:
 - sprout-mike::emacs
 
 # apps
+- sprout-osx-apps::homebrew_cask
 - sprout-osx-apps::skype
 - sprout-osx-apps::firefox
 - sprout-osx-apps::dropbox
@@ -38,6 +39,7 @@ recipes:
 - sprout-osx-apps::lastpass
 - sprout-osx-apps::vlc
 - sprout-mike::neo-mail
+- sprout-mike::screenhero
 
 # dev tools
 - sprout-osx-apps::heroku_toolbelt
