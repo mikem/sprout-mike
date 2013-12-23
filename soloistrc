@@ -40,6 +40,7 @@ recipes:
 - sprout-osx-apps::vlc
 - sprout-mike::neo-mail
 - sprout-mike::screenhero
+- sprout-mike::android-file-transfer
 
 # dev tools
 - sprout-osx-apps::heroku_toolbelt
