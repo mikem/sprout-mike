@@ -8,7 +8,7 @@ GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-apps
   ref: mike-customizations
-  sha: f85e883228993fe129081475e317b36a675dfc4a
+  sha: bc70ff505d13757bbc004660c9725788636197e4
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -20,7 +20,7 @@ GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-settings
   ref: mike-customizations
-  sha: f85e883228993fe129081475e317b36a675dfc4a
+  sha: bc70ff505d13757bbc004660c9725788636197e4
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
