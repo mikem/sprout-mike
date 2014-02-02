@@ -1,14 +1,14 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (2.0.8)
-    homebrew (1.5.2)
+    dmg (2.1.4)
+    homebrew (1.5.4)
 
 GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-apps
   ref: mike-customizations
-  sha: d91e8e76fa1c99cd621ef217e09032d55a061b76
+  sha: f85e883228993fe129081475e317b36a675dfc4a
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -20,7 +20,7 @@ GIT
   remote: git://github.com/mikem/sprout.git
   path: sprout-osx-settings
   ref: mike-customizations
-  sha: d91e8e76fa1c99cd621ef217e09032d55a061b76
+  sha: f85e883228993fe129081475e317b36a675dfc4a
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -31,7 +31,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
+  sha: 2baedb853f3516156365f73438c27a1f4c6d7059
   specs:
     osx (0.1.0)
 
@@ -39,7 +39,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: pivotal_workstation
   ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
+  sha: 2baedb853f3516156365f73438c27a1f4c6d7059
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -54,7 +54,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
+  sha: 2baedb853f3516156365f73438c27a1f4c6d7059
   specs:
     sprout-osx-base (0.1.0)
 
@@ -62,7 +62,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: 06b9d50c00118611d3550e5068f629453fb53080
+  sha: 2baedb853f3516156365f73438c27a1f4c6d7059
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
