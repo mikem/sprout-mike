@@ -42,6 +42,7 @@ recipes:
 - sprout-mike::screenhero
 - sprout-mike::light-table
 - sprout-mike::android-file-transfer
+- sprout-mike::tor-browser
 
 # dev tools
 - sprout-osx-apps::heroku_toolbelt
