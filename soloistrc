@@ -49,6 +49,7 @@ recipes:
 - sprout-osx-apps::java
 - sprout-osx-apps::leiningen
 - sprout-mike::maven
+- sprout-mike::intellij-idea-community
 
 # configuration
 - sprout-mike::dot-vimperatorrc
