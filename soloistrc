@@ -18,6 +18,7 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::safari_preferences
 - sprout-osx-settings::set_finder_show_user_home_in_sidebar
+- sprout-osx-settings::set_menubar_clock_format
 - sprout-mike::set_multitouch_preferences
 
 # editors
