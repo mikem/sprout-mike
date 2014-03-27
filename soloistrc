@@ -46,6 +46,7 @@ recipes:
 - sprout-mike::tor-browser
 
 # dev tools
+- pivotal_workstation::rvm
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::java
 - sprout-osx-apps::leiningen
