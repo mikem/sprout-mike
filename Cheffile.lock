@@ -5,6 +5,18 @@ SITE
     homebrew (1.5.4)
 
 GIT
+  remote: git://github.com/mikem/sprout.git
+  path: sprout-osx-apps
+  ref: update-vritualbox
+  sha: 7656123120724f125a62430d34e057e3da2fe095
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
@@ -26,18 +38,6 @@ GIT
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-apps
-  ref: master
-  sha: c141d32287df86bc965639347d9b72f17fb0d7e9
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git

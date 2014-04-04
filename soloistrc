@@ -39,6 +39,7 @@ recipes:
 - sprout-osx-apps::hipchat
 - sprout-osx-apps::lastpass
 - sprout-osx-apps::vlc
+- sprout-osx-apps::virtualbox
 - sprout-mike::neo-mail
 - sprout-mike::screenhero
 - sprout-mike::light-table
