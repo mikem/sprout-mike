@@ -49,6 +49,16 @@ GIT
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-rbenv
+  ref: master
+  sha: c141d32287df86bc965639347d9b72f17fb0d7e9
+  specs:
+    sprout-osx-rbenv (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-settings
   ref: master
   sha: c141d32287df86bc965639347d9b72f17fb0d7e9
@@ -83,6 +93,7 @@ DEPENDENCIES
   sprout-mike (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
+  sprout-osx-rbenv (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
 
