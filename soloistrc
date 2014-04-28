@@ -45,6 +45,7 @@ recipes:
 - sprout-mike::light-table
 - sprout-mike::android-file-transfer
 - sprout-mike::tor-browser
+- sprout-mike::irssi
 
 # dev tools
 - sprout-osx-rbenv
