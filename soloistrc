@@ -11,7 +11,7 @@ recipes:
 
 # essentials
 - sprout-mike::git
-- sprout-mike::unix_essentials
+- sprout-mike::packages
 
 # settings
 - sprout-osx-settings::defaults_fast_key_repeat_rate
