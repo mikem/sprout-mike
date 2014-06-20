@@ -46,6 +46,7 @@ recipes:
 - sprout-mike::android-file-transfer
 - sprout-mike::tor-browser
 - sprout-mike::sonos
+- sprout-mike::soundcleod
 - sprout-mike::irssi
 
 # dev tools
