@@ -1,1 +1,1 @@
-sprout_osx_apps_homebrew_cask "torbrowserbundle"
+sprout_osx_apps_homebrew_cask 'torbrowser'
