@@ -56,6 +56,9 @@ recipes:
 - sprout-osx-apps::leiningen
 - sprout-mike::maven
 - sprout-mike::intellij-idea-community
+- sprout-mike::postgres
+- sprout-mike::chromedriver
+- sprout-mike::node
 
 # configuration
 - sprout-mike::dot-vimperatorrc
